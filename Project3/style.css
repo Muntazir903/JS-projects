@@ -31,7 +31,7 @@ input {
     border: none;
     outline: none;
     background: transparent;
-    border-radius: 0.75rem;
+    border-radius: 0.8rem;
 }
 
 form input {
@@ -39,6 +39,18 @@ form input {
     font-size: 1rem;
     padding-left: 0.5rem;
     height: 2.5rem;
+
+}
+
+.amount p {
+    margin-bottom: 0.3rem;
+}
+
+form input:hover {
+    border: 2px solid #0D6EFD;
+    box-sizing: border-box;
+    height: 2.6rem
+
 }
 
 .dropdown {
@@ -47,33 +59,47 @@ form input {
     align-items: center;
     margin-top: 2rem;
 
+}
 
+.dropdown p {
+    margin-bottom: 0.2rem;
 }
 
 .flagContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 6.8rem;
+    width: 7.5rem;
     border-radius: 0.75rem;
+    box-sizing: border-box;
     border: 1px solid lightgray;
+
+}
+
+.flagContainer:hover {
+    border: 2px solid #0D6EFD;
+    box-sizing: border-box;
+    height: 3.1rem
 
 }
 
 .flagContainer select {
     font-size: 1rem;
-
+    box-sizing: border-box;
 }
 
 .flagContainer img {
     width: 3rem;
     margin-left: 0.3rem;
+    box-sizing: border-box;
 
 }
 
 .dropdown i {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-size: 1.5rem;
+    margin-right: 0.5rem;
+
 }
 
 .bottom {
@@ -88,7 +114,7 @@ form input {
     margin: 2rem 0 2rem 0;
 }
 
-.button  {
+.button {
     height: 3rem;
     color: #fff;
     display: flex;
@@ -98,5 +124,12 @@ form input {
     border-radius: 0.75rem;
     background-color: #0D6EFD;
     cursor: pointer;
+
+}
+
+
+form select {
+    width: 3.8rem;
+
 }
 

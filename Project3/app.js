@@ -41,6 +41,7 @@ const updateExchangeRate = async () => {
     if (exgAmount == "" || exgAmount < 1) {
         exgAmount = 0;
         amount.value = 0;
+    
     }
     const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}.json`
     let response = await fetch(URL);
