@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Currency Converter</h1>
+            <form>
+                <div class="amount">
+                    <p>Enter the amount :</p>
+                    <input type="text" value=0>
+                </div>
+                <div class="dropdown">
+                    <div class="from">
+                        <p><strong>From</strong></p>
+                        <div class="flagContainer">
+                            <img src="https://flagsapi.com/PK/flat/64.png" alt="Country Flag">
+                            <select name="from">
+                                /* Options appear here*/
+                            </select>
+
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    <div class="to">
+                        <p><strong>To</strong></p>
+                        <div class="flagContainer">
+                            <img src="https://flagsapi.com/US/flat/64.png" alt="Country Flag">
+                            <select name="to">
+                               /* Options appear here*/
+                            </select>
+                        </div>  
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="msg">1PK = 0.75USD</div>
+                    <button class="button"><strong>Get Exchange Rate</strong></button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+    <script src="utils.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
